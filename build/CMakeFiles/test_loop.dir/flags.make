@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/joeylindenbaum/Downloads/P3_starter/include
 
-CXX_FLAGSarm64 = -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -fno-omit-frame-pointer
+CXX_FLAGSarm64 = -include unistd.h -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -fno-omit-frame-pointer
 
-CXX_FLAGS = -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -fno-omit-frame-pointer
+CXX_FLAGS = -include unistd.h -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -fno-omit-frame-pointer
 
