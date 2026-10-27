@@ -419,7 +419,109 @@ TEST(ws_rejects_null_character) {
     CHECK(!ws.resolve(path, &out, &reason));
     CHECK(!reason.empty());
 
-    
+
+}
+
+
+TEST(calc_left_to_right) {
+
+
+    double value = 0;
+    std::string error;
+
+
+
+
+
+    // subtraction with equal precedence goes left to right
+    REQUIRE(eval("10 - 4 - 3", &value, &error));
+    CHECK(value == 3);
+
+
+
+
+    // division follows the same rule
+    REQUIRE(eval("100 / 10 / 5", &value, &error));
+    CHECK(value == 2);
+}
+
+
+
+
+
+TEST(calc_parentheses) {
+    double value = 0;
+    std::string error;
+
+
+
+
+    // finishes the group before multiplying
+    REQUIRE(eval("(2 + 3) * 4", &value, &error));
+    CHECK(value == 20);
+
+
+
+
+
+    REQUIRE(eval("2 * (3 + 4) - 5", &value, &error));
+    CHECK(value == 9);
+}
+
+
+
+
+
+TEST(calc_negatives_and_decimals) {
+    double value = 0;
+    std::string error;
+
+
+
+    // the tokenizer already includes the negative signs in the numbers
+    REQUIRE(eval("-3 * -3", &value, &error));
+    CHECK(value == 9);
+
+
+    // division should keep the decimal part
+    REQUIRE(eval("7 / 2", &value, &error));
+    CHECK(value == 3.5);
+}
+
+
+
+
+TEST(calc_group_division_by_zero) {
+    double value = 0;
+    std::string error;
+
+
+
+
+    // the denominator becomes zero after evaluating the group
+    CHECK(!eval("1 / (2 - 2)", &value, &error));
+    CHECK(error == "division by zero");
+}
+
+TEST(calc_own_expressions) {
+    double value = 0;
+    std::string error;
+
+
+
+
+
+    // checks nested groups
+
+    REQUIRE(eval("((8 + 2) * 3) / 5", &value, &error));
+    CHECK(value == 6);
+
+
+
+
+    // checks decimal numbers mixed with multiplication
+    REQUIRE(eval("1.5 + 2.5 * 2", &value, &error));
+    CHECK(value == 6.5);
 }
 
 
