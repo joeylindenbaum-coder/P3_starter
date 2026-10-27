@@ -15,7 +15,7 @@
 #include "tools/calculator.h"
 #include "tools/tool_registry.h"
 #include "tools/workspace.h"
-
+#include <utility>
 #include <cstdio>
 #include <memory>
 #include <string>
@@ -304,10 +304,123 @@ TEST(reg_for_each_visits_each_once) {
     CHECK(alpha == 1);
     CHECK(beta == 1);
     CHECK(gamma == 1);
-    
+
 }
 
 
+
+TEST(ws_accepts_safe_paths) {
+
+
+    TempDir d;
+    Workspace ws(d.path());
+
+    fs::path out;
+    std::string reason;
+
+
+
+
+
+    // each input is paired with its expected path inside the workspace
+    std::vector<std::pair<std::string, std::string>> cases = {
+        {"notes/todo.txt", "notes/todo.txt"},
+        {"./notes//todo.txt", "notes/todo.txt"},
+        {".", "."},
+        {"a/../b", "b"},
+        {"a/..", "."},
+        {"new/dir/file.txt", "new/dir/file.txt"},
+        {"my..notes.txt", "my..notes.txt"}
+    };
+
+
+
+
+
+    for (const auto& test : cases) {
+
+        REQUIRE(ws.resolve(test.first, &out, &reason));
+
+
+
+
+        // a dot should resolve to the root itself
+        if (test.second == ".") {
+            CHECK(out == ws.root());
+        } else {
+            CHECK(out == ws.root() / test.second);
+        }
+
+    }
+
+
+
+
+    // resolving a path should not create anything
+    CHECK(!fs::exists(d.path() / "new"));
+}
+
+
+
+
+
+TEST(ws_rejects_unsafe_paths) {
+    TempDir d;
+    Workspace ws(d.path());
+    fs::path out;
+    std::string reason;
+
+
+
+    std::vector<std::string> paths = {
+        "",
+        "/etc/passwd",
+        "..",
+        "../etc/passwd",
+        "a/../../b",
+        "notes/../../ws/notes/todo.txt"
+    };
+
+
+
+
+
+    for (const auto& path : paths) {
+
+        // clears the reason so an old error cannot make this test pass
+        reason.clear();
+
+        CHECK(!ws.resolve(path, &out, &reason));
+        CHECK(!reason.empty());
+    }
+}
+
+
+
+
+
+TEST(ws_rejects_null_character) {
+
+
+    TempDir d;
+    Workspace ws(d.path());
+    fs::path out;
+
+    std::string reason;
+
+
+
+
+
+    // builds the string explicitly so the null character is included
+
+    std::string path = std::string("notes") + '\0' + "/x";
+
+    CHECK(!ws.resolve(path, &out, &reason));
+    CHECK(!reason.empty());
+
+    
+}
 
 
 
