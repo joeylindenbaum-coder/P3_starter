@@ -559,6 +559,7 @@ CMakeFiles/harness_core.dir/src/core/conversation.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -600,11 +601,20 @@ CMakeFiles/harness_core.dir/src/core/conversation.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_set.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h
@@ -617,12 +627,14 @@ CMakeFiles/harness_core.dir/src/core/conversation.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h
@@ -633,6 +645,8 @@ CMakeFiles/harness_core.dir/src/core/conversation.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -641,11 +655,14 @@ CMakeFiles/harness_core.dir/src/core/conversation.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/__stdarg___gnuc_va_list.h
@@ -1229,6 +1246,7 @@ CMakeFiles/harness_core.dir/src/core/sentinel_scanner.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -1270,11 +1288,20 @@ CMakeFiles/harness_core.dir/src/core/sentinel_scanner.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_set.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h
@@ -1287,12 +1314,14 @@ CMakeFiles/harness_core.dir/src/core/sentinel_scanner.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h
@@ -1303,6 +1332,8 @@ CMakeFiles/harness_core.dir/src/core/sentinel_scanner.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -1311,11 +1342,14 @@ CMakeFiles/harness_core.dir/src/core/sentinel_scanner.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/__stdarg___gnuc_va_list.h
@@ -2025,6 +2059,7 @@ CMakeFiles/harness_core.dir/src/harness/harness.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -2068,6 +2103,7 @@ CMakeFiles/harness_core.dir/src/harness/harness.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -2105,6 +2141,7 @@ CMakeFiles/harness_core.dir/src/harness/harness.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -2127,6 +2164,7 @@ CMakeFiles/harness_core.dir/src/harness/harness.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -2135,10 +2173,12 @@ CMakeFiles/harness_core.dir/src/harness/harness.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
@@ -2869,6 +2909,7 @@ CMakeFiles/harness_core.dir/src/harness/tool_dispatcher.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -2912,6 +2953,7 @@ CMakeFiles/harness_core.dir/src/harness/tool_dispatcher.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -2949,6 +2991,7 @@ CMakeFiles/harness_core.dir/src/harness/tool_dispatcher.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -2971,6 +3014,7 @@ CMakeFiles/harness_core.dir/src/harness/tool_dispatcher.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -2979,10 +3023,12 @@ CMakeFiles/harness_core.dir/src/harness/tool_dispatcher.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
@@ -3709,6 +3755,7 @@ CMakeFiles/harness_core.dir/src/harness/transcript.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -3752,6 +3799,7 @@ CMakeFiles/harness_core.dir/src/harness/transcript.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -3789,6 +3837,7 @@ CMakeFiles/harness_core.dir/src/harness/transcript.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -3811,6 +3860,7 @@ CMakeFiles/harness_core.dir/src/harness/transcript.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -3819,10 +3869,12 @@ CMakeFiles/harness_core.dir/src/harness/transcript.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
@@ -4488,6 +4540,7 @@ CMakeFiles/harness_core.dir/src/json/json_value.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -4531,6 +4584,7 @@ CMakeFiles/harness_core.dir/src/json/json_value.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -4568,6 +4622,7 @@ CMakeFiles/harness_core.dir/src/json/json_value.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -4590,6 +4645,7 @@ CMakeFiles/harness_core.dir/src/json/json_value.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -4598,12 +4654,15 @@ CMakeFiles/harness_core.dir/src/json/json_value.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h
@@ -5196,6 +5255,7 @@ CMakeFiles/harness_core.dir/src/model/model_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -5237,11 +5297,20 @@ CMakeFiles/harness_core.dir/src/model/model_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_set.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h
@@ -5254,12 +5323,14 @@ CMakeFiles/harness_core.dir/src/model/model_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h
@@ -5270,6 +5341,8 @@ CMakeFiles/harness_core.dir/src/model/model_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -5278,11 +5351,14 @@ CMakeFiles/harness_core.dir/src/model/model_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/__stdarg___gnuc_va_list.h
@@ -5936,6 +6012,7 @@ CMakeFiles/harness_core.dir/src/model/replay_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -5979,6 +6056,7 @@ CMakeFiles/harness_core.dir/src/model/replay_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -6016,6 +6094,7 @@ CMakeFiles/harness_core.dir/src/model/replay_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -6038,6 +6117,7 @@ CMakeFiles/harness_core.dir/src/model/replay_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -6046,12 +6126,15 @@ CMakeFiles/harness_core.dir/src/model/replay_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h
@@ -6774,6 +6857,7 @@ CMakeFiles/harness_core.dir/src/model/scripted_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -6817,6 +6901,7 @@ CMakeFiles/harness_core.dir/src/model/scripted_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -6854,6 +6939,7 @@ CMakeFiles/harness_core.dir/src/model/scripted_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -6876,6 +6962,7 @@ CMakeFiles/harness_core.dir/src/model/scripted_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -6884,10 +6971,12 @@ CMakeFiles/harness_core.dir/src/model/scripted_client.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
@@ -7612,6 +7701,7 @@ CMakeFiles/harness_core.dir/src/tools/builtin_tools.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -7655,6 +7745,7 @@ CMakeFiles/harness_core.dir/src/tools/builtin_tools.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -7692,6 +7783,7 @@ CMakeFiles/harness_core.dir/src/tools/builtin_tools.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -7714,6 +7806,7 @@ CMakeFiles/harness_core.dir/src/tools/builtin_tools.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -7722,10 +7815,12 @@ CMakeFiles/harness_core.dir/src/tools/builtin_tools.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
@@ -8395,6 +8490,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_eval.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -8438,6 +8534,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_eval.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -8475,6 +8572,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_eval.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -8497,6 +8595,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_eval.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -8505,12 +8604,15 @@ CMakeFiles/harness_core.dir/src/tools/calculator_eval.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h
@@ -9171,6 +9273,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_tokenize.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -9214,6 +9317,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_tokenize.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -9251,6 +9355,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_tokenize.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -9273,6 +9378,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_tokenize.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -9281,12 +9387,15 @@ CMakeFiles/harness_core.dir/src/tools/calculator_tokenize.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h
@@ -10004,6 +10113,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_tool.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -10047,6 +10157,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_tool.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -10084,6 +10195,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_tool.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -10106,6 +10218,7 @@ CMakeFiles/harness_core.dir/src/tools/calculator_tool.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -10114,10 +10227,12 @@ CMakeFiles/harness_core.dir/src/tools/calculator_tool.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
@@ -10844,6 +10959,7 @@ CMakeFiles/harness_core.dir/src/tools/file_tools.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -10887,6 +11003,7 @@ CMakeFiles/harness_core.dir/src/tools/file_tools.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -10924,6 +11041,7 @@ CMakeFiles/harness_core.dir/src/tools/file_tools.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -10946,6 +11064,7 @@ CMakeFiles/harness_core.dir/src/tools/file_tools.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -10954,10 +11073,12 @@ CMakeFiles/harness_core.dir/src/tools/file_tools.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
@@ -11682,6 +11803,7 @@ CMakeFiles/harness_core.dir/src/tools/tool_registry.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -11725,6 +11847,7 @@ CMakeFiles/harness_core.dir/src/tools/tool_registry.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -11762,6 +11885,7 @@ CMakeFiles/harness_core.dir/src/tools/tool_registry.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -11784,6 +11908,7 @@ CMakeFiles/harness_core.dir/src/tools/tool_registry.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -11792,10 +11917,12 @@ CMakeFiles/harness_core.dir/src/tools/tool_registry.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
@@ -12519,6 +12646,7 @@ CMakeFiles/harness_core.dir/src/tools/workspace.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -12562,6 +12690,7 @@ CMakeFiles/harness_core.dir/src/tools/workspace.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -12599,6 +12728,7 @@ CMakeFiles/harness_core.dir/src/tools/workspace.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -12621,6 +12751,7 @@ CMakeFiles/harness_core.dir/src/tools/workspace.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -12629,10 +12760,12 @@ CMakeFiles/harness_core.dir/src/tools/workspace.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
@@ -13353,6 +13486,7 @@ CMakeFiles/harness_core.dir/src/tools/workspace_provided.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h
@@ -13396,6 +13530,7 @@ CMakeFiles/harness_core.dir/src/tools/workspace_provided.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h
@@ -13433,6 +13568,7 @@ CMakeFiles/harness_core.dir/src/tools/workspace_provided.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h
@@ -13455,6 +13591,7 @@ CMakeFiles/harness_core.dir/src/tools/workspace_provided.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
@@ -13463,10 +13600,12 @@ CMakeFiles/harness_core.dir/src/tools/workspace_provided.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h

@@ -12,6 +12,36 @@ ToolRegistry::~ToolRegistry() = default;   // unique_ptrs in your buckets free t
 
 
 
+void ToolRegistry::rehash(std::size_t new_bucket_count) {
+
+
+    // creates a new table with more empty buckets
+
+    std::vector<std::list<std::unique_ptr<Tool>>> new_buckets(new_bucket_count);
+
+
+    // goes through every tool in the old table
+
+
+    for (auto& bucket : buckets_) {
+
+        for (auto& tool : bucket) {
+            // chooses the bucket using the new table size
+            std::size_t index = hash(tool->name()) % new_bucket_count;
+
+            // transfers ownership without moving the actual tool
+            new_buckets[index].push_back(std::move(tool));
+        }
+
+    }
+
+    // replaces the old table with the new one
+
+    buckets_ = std::move(new_buckets);
+}
+
+
+
 
 
 std::size_t ToolRegistry::hash(std::string_view key) noexcept {
@@ -42,6 +72,12 @@ bool ToolRegistry::add(std::unique_ptr<Tool> tool) {
     // rejects a name that is already registered
     if (find(tool->name()) != nullptr) {
         return false;
+    }
+
+
+    // grows the table if the next tool would exceed one tool per bucket on average
+    if (size_ + 1 > buckets_.size()) {
+        rehash(buckets_.size() * 2);
     }
 
 

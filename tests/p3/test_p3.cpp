@@ -104,4 +104,211 @@ TEST(calc_division_by_zero) {
 //   ws_<case>                     REQUIRED: every row of the table in spec §4.4
 //   calc_<case>                   left-to-right, parentheses, negatives
 
+
+TEST(reg_10000_tools) {
+
+
+    ToolRegistry r;
+    Tool* first = nullptr;
+
+    // adds 10000 tools with different names
+
+    for (int i = 0; i < 10000; ++i) {
+        std::string name = "tool_" + std::to_string(i);
+        REQUIRE(r.add(std::make_unique<NamedTool>(name)));
+
+
+
+
+        // remembers the first tool's address before any resizing
+
+        if (i == 0) {
+            first = r.find(name);
+        }
+
+
+
+
+
+        // checks the count and load factor after every add
+        CHECK(r.size() == static_cast<std::size_t>(i + 1));
+        CHECK(r.load_factor() <= 1.0);
+    }
+
+
+
+
+    // checks that every tool can still be found
+    for (int i = 0; i < 10000; ++i) {
+        std::string name = "tool_" + std::to_string(i);
+        CHECK(r.find(name) != nullptr);
+    }
+
+
+
+
+
+    // resizing should not change the first tool's address
+    CHECK(first != nullptr);
+    CHECK(r.find("tool_0") == first);
+
+
+
+
+
+    // checks the longest chain against the spec's limit
+    CHECK(r.max_probe_length() <= 64);
+
+
+
+
+    // prints the measurements for our design log
+    std::printf("buckets: %zu\n", r.bucket_count());
+    std::printf("load factor: %.6f\n", r.load_factor());
+    std::printf("longest chain: %zu\n", r.max_probe_length());
+
+}
+
+
+
+TEST(reg_alternative_hash) {
+    ToolRegistry r;
+
+
+
+    // builds the real table to get its final bucket count
+    for (int i = 0; i < 10000; ++i) {
+        std::string name = "tool_" + std::to_string(i);
+        REQUIRE(r.add(std::make_unique<NamedTool>(name)));
+    }
+
+
+
+    // counts how many names the weak hash puts in each bucket
+    std::vector<int> counts(r.bucket_count(), 0);
+
+
+
+
+    for (int i = 0; i < 10000; ++i) {
+        std::string name = "tool_" + std::to_string(i);
+
+        // only uses the first character and length of the name
+        std::size_t weak_hash =
+            static_cast<unsigned char>(name[0]) + name.size();
+
+        std::size_t index = weak_hash % counts.size();
+        ++counts[index];
+    }
+
+
+
+    // finds the longest chain produced by the weak hash
+
+    int longest = 0;
+
+    for (int count : counts) {
+        if (count > longest) {
+            longest = count;
+        }
+    }
+
+
+
+
+    // compares both hashes using the same number of buckets
+    std::printf("bucket count: %zu\n", r.bucket_count());
+    std::printf("real hash longest chain: %zu\n", r.max_probe_length());
+    std::printf("weak hash longest chain: %d\n", longest);
+
+    CHECK(longest == 9000);
+}
+
+
+
+TEST(reg_null_rejected) {
+
+
+    ToolRegistry r;
+
+
+
+
+    // an empty registry should have no tools
+    CHECK(r.size() == 0);
+    CHECK(r.find("missing") == nullptr);
+
+
+
+
+    // rejects an empty pointer without changing the count
+    CHECK(!r.add(nullptr));
+    CHECK(r.size() == 0);
+
+
+
+    REQUIRE(r.add(std::make_unique<NamedTool>("alpha")));
+
+
+
+
+    // rejecting another empty pointer should keep the existing tool
+    CHECK(!r.add(nullptr));
+    CHECK(r.size() == 1);
+    CHECK(r.find("alpha") != nullptr);
+}
+
+
+
+
+TEST(reg_for_each_visits_each_once) {
+    ToolRegistry r;
+
+
+
+
+    REQUIRE(r.add(std::make_unique<NamedTool>("alpha")));
+    REQUIRE(r.add(std::make_unique<NamedTool>("beta")));
+    REQUIRE(r.add(std::make_unique<NamedTool>("gamma")));
+
+
+
+
+    int alpha = 0;
+    int beta = 0;
+    int gamma = 0;
+    int total = 0;
+
+
+
+
+
+    // counts each tool visited by for_each
+    r.for_each([&](const Tool& tool) {
+        ++total;
+
+        if (tool.name() == "alpha") {
+            ++alpha;
+        } else if (tool.name() == "beta") {
+            ++beta;
+        } else if (tool.name() == "gamma") {
+            ++gamma;
+        }
+    });
+
+
+
+
+    // each registered tool should be visited exactly once
+    CHECK(total == 3);
+    CHECK(alpha == 1);
+    CHECK(beta == 1);
+    CHECK(gamma == 1);
+    
+}
+
+
+
+
+
 int main(int argc, char** argv) { return mt::run_all(argc, argv); }
