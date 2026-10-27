@@ -2,6 +2,8 @@
 **Author:** <Joe Lindenbaum> · **P2 code used:** <my own>
 **Tools used:** <used Codex to help understand the spec and starter code, troubleshoot build errors, format the code consistently, and rewrite my comments to make them simple and understandable.>
 
+
+
 ## 1. Hash table
 
 I used a vector of linked lists, like the chaining example from Lecture 17. Each position is a bucket. If two tool names go to the same bucket, both are stored in that list. This keeps collision handling simple. Each tool is stored in a unique_ptr, so the registry owns it and frees it automatically.
